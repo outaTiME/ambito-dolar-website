@@ -1,0 +1,8 @@
+node_modules/**/*
+npm-debug.*
+.vercel
+.env
+.serverless
+
+# macOS
+.DS_Store

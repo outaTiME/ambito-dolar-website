@@ -1,0 +1,53 @@
+{
+  "name": "ambito-dolar-website",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "devcert": "^1.1.2",
+    "gatsby": "^2.7.5",
+    "gatsby-background-image": "^1.1.1",
+    "gatsby-cli": "^2.7.47",
+    "gatsby-image": "^2.1.2",
+    "gatsby-plugin-dark-mode": "^1.1.2",
+    "gatsby-plugin-google-analytics": "^2.3.13",
+    "gatsby-plugin-humans-txt": "^1.1.4",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-no-sourcemaps": "^2.2.0",
+    "gatsby-plugin-offline": "^3.2.16",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-robots-txt": "^1.5.1",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.1.2",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^2.0.37",
+    "gatsby-transformer-sharp": "^2.1.20",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^3.10.0"
+  },    
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.0.0",
+    "eslint-config-universe": "^6.0.0",
+    "prettier": "^2.0.2",
+    "release-it": "^14.0.3",
+    "typescript": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=12.x"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "release": "release-it --no-npm.publish"
+  }
+}
