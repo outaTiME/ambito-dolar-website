@@ -3,6 +3,7 @@ npm-debug.*
 .vercel
 .env
 .serverless
+.cache
 
 # macOS
 .DS_Store
