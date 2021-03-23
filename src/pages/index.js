@@ -4,13 +4,10 @@ import { IconContext } from 'react-icons';
 import {
   FaTwitter as Twitter,
   FaTelegramPlane as Telegram,
-  // FaGithub as Github,
   FaInstagram as Insta,
   FaFacebook as Facebook,
   FaCoffee as Cafecito,
-  // FaMugHot as Cafecito,
   FaEnvelope as Mail,
-  // FaAddressCard as Personal,
 } from 'react-icons/fa';
 
 import AppStore from '../components/app-store';
@@ -123,14 +120,6 @@ const IndexPage = () => {
                       >
                         <Mail />
                       </a>
-                      {/* <a
-                        className="icon"
-                        href="https://outa.im"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Personal />
-                      </a> */}
                     </p>
                     <div className="feature__action">
                       <AppStore />
