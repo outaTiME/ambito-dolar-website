@@ -7,7 +7,10 @@ import {
   // FaGithub as Github,
   FaInstagram as Insta,
   FaFacebook as Facebook,
+  FaCoffee as Cafecito,
+  // FaMugHot as Cafecito,
   FaEnvelope as Mail,
+  // FaAddressCard as Personal,
 } from 'react-icons/fa';
 
 import AppStore from '../components/app-store';
@@ -106,12 +109,28 @@ const IndexPage = () => {
                       </a>
                       <a
                         className="icon"
+                        href="https://cafecito.app/ambitodolar"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Cafecito />
+                      </a>
+                      <a
+                        className="icon"
                         href="mailto:soporte@ambito-dolar.app"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <Mail />
                       </a>
+                      {/* <a
+                        className="icon"
+                        href="https://outa.im"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Personal />
+                      </a> */}
                     </p>
                     <div className="feature__action">
                       <AppStore />

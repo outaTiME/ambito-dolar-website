@@ -1,9 +1,5 @@
-node_modules/**/*
-npm-debug.*
+node_modules
+yarn.lock
 .vercel
-.env
-.serverless
 .cache
-
-# macOS
-.DS_Store
+public
