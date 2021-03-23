@@ -3,7 +3,6 @@
   "private": true,
   "version": "1.0.1",
   "dependencies": {
-    "devcert": "^1.1.2",
     "gatsby": "^2.7.5",
     "gatsby-background-image": "^1.1.1",
     "gatsby-cli": "^2.7.47",

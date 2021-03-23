@@ -69,9 +69,9 @@ function SEO({ description, lang, meta }) {
           content: metaDescription,
         },
         /* {
-          name: `viewport`,
-          content: `width=device-width, initial-scale=1.0, viewport-fit=cover`,
-        }, */
+        name: `viewport`,
+        content: `width=device-width, initial-scale=1.0, viewport-fit=cover`,
+      }, */
       ].concat(meta)}
     />
   );
